@@ -1,11 +1,8 @@
 import { LitElement, html, css } from 'lit';
 import { property, customElement } from 'lit/decorators.js';
 
-const logo = new URL('../../assets/open-wc-logo.svg', import.meta.url).href;
 
-@customElement('my-card')
 export class MyCard extends LitElement {
-  //@property({ type: String }) header = 'My app';
 
   static styles = css`
     .wrap{
